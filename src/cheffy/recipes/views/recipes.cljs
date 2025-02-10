@@ -1,4 +1,5 @@
-(ns cheffy.recipes.views.recipes)
+(ns cheffy.recipes.views.recipes
+  (:require [cheffy.components.page-nav :refer [page-nav]]))
 
 (defn recipes []
-  [:div "Recipes"])
+  [page-nav {:center  "Recipes"}])

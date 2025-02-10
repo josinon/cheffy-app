@@ -1,4 +1,5 @@
-(ns cheffy.auth.views.profile)
+(ns cheffy.auth.views.profile
+  (:require [cheffy.components.page-nav :refer [page-nav]]))
 
 (defn profile []
-  [:div "Profile"])
+  [page-nav {:center "Profile"}])

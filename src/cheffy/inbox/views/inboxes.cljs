@@ -1,4 +1,5 @@
-(ns cheffy.inbox.views.inboxes)
+(ns cheffy.inbox.views.inboxes
+  (:require [cheffy.components.page-nav :refer [page-nav]]))
 
 (defn inboxes []
-  [:div "Inboxes"])
+  [page-nav {:center  "Inboxes"}])

@@ -12,6 +12,8 @@
    [cheffy.recipes.views.recipes :refer [recipes]] 
    [cheffy.auth.views.login :refer [login]]
    [cheffy.auth.views.sign-up :refer [sign-up]]
+   [cheffy.auth.events]
+   [cheffy.auth.subs]
    ["@smooth-ui/core-sc" :refer [Normalize Grid Row Col ThemeProvider]]))
 
 ;; home
